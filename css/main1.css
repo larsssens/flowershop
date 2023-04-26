@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+
+p {
+    margin: 0;
+    line-height: 1.37em;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+section {
+    padding-top: 120px;
+}
+
+.btn {
+    background: #FC7575;
+    border-radius: 100px;
+    color: #FFFFFF;
+    padding: 22px 70px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    width: 218px;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #232323;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+.introtext {
+    font-size: 18px;
+    margin: 30px 0px;
+}
+
+.offer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 79px;
+}
+
+.offer {
+    width: 465px;
+}
+
+.logo {
+    margin: 0 auto;
+    display: block;
+}
+
+.digit-item {
+    display: flex;
+    align-items: center;
+}
+
+.digit {
+    border: 1px solid #000000;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    width: 77px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 34px;
+    transition: all 0.5s ease;
+}
+
+.digit-item:hover .digit {
+    background: #FC7575;
+    color: #fff
+}
+
+.digit-title {
+    font-size: 30px;
+    margin-bottom: 11px;
+}
+
+.digits {
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+    width: 720px;
+    margin: 70px auto 0 auto;
+}
+
+.practice-wrap {
+    background: linear-gradient(102deg, #FFE8AF 17.38%, #FC7575 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 93px 168px 89px 122px;
+}
+
+.practice-block {
+    width: 432px;
+}
+
+.practice-title {
+    text-align: left;
+}
+
+.practice-text {
+    margin: 24px 0;
+    width: 371px;
+}
+
+.plants {
+    margin-right: 101px;
+    size: 256px 268px;
+}
+
+.footer {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 15px;
+}
